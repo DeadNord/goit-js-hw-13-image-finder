@@ -32,6 +32,7 @@ galleryEl.addEventListener('click', e => {
     .show();
 });
 
+// Function
 function fetchCall() {
   fetchImages(currentValue, page).then(renderImages);
 }
