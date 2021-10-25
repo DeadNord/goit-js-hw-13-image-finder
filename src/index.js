@@ -1,3 +1,3 @@
 import './sass/main.scss';
-import './js/render.js';
-import './js/fetchCountries.js';
+import './js/apiService.js';
+import './js/gallery_infinite.js';

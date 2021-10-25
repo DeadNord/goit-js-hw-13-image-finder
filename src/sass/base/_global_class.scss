@@ -1,8 +1,9 @@
-body{
+body {
+  font-family: Roboto, sans-serif;
+  background-color: $primary-background-color;
 
-  background-color: rgb(155, 155, 155);
-  
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -10,7 +11,7 @@ body{
   padding-right: 20px;
 
   @media screen and (min-width: $mobile-general) {
-    min-width: $mobile-general;
+    width: $mobile-general;
   }
 
   @media screen and (min-width: $mobile-only) {
